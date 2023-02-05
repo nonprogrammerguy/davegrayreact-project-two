@@ -1,0 +1,27 @@
+.menu {
+    display: grid;
+    grid-auto-flow: column;
+}
+.tab {
+    line-height: 3;
+}
+
+.active {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.list-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cell {
+    border: #000000 solid 1px;
+}
+
+.header-text {
+    text-align: center;
+    text-transform:capitalize;
+    font-weight: bold;
+}
